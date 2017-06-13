@@ -10,7 +10,7 @@ public class Solution {
         if (s == null || s.length() == 0){
             return result;
         }
-        Map<Character, Integer> map = new HashMap<>();
+        Map<Character, Integer> map = new HashMap<>();a
         int j = 0;
         for (int i = 0; i < s.length(); i++){
             boolean flag = false;
