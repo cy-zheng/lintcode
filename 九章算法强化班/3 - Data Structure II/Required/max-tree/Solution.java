@@ -18,6 +18,7 @@ public class Solution {
      */
     public TreeNode maxTree(int[] A) {
         // write your code here
+        // http://www.cnblogs.com/lishiblog/p/4187936.html
         if (A == null || A.length == 0) return null;
         // stack is descending
         Stack<TreeNode> stack = new Stack<>();
